@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QR kód – 5X Café &amp; Pizzeria</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f5f3ee;
+      color: #1a1a1a;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .print-btn {
+      background: #C9A84C;
+      color: #000;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.85rem;
+      font-weight: 700;
+      padding: 0.65rem 1.8rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      letter-spacing: 0.04em;
+    }
+    .print-btn:hover { opacity: 0.85; }
+
+    .qr-card {
+      background: #fff;
+      border: 1px solid #e0d8c4;
+      border-radius: 14px;
+      padding: 2rem 2.5rem 1.75rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 1.25rem;
+    }
+
+    .qr-name {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      line-height: 1.25;
+    }
+
+    .qr-sub {
+      font-size: 0.8rem;
+      color: #888;
+      margin-top: -0.75rem;
+    }
+
+    @media print {
+      body { background: #fff; }
+      .print-btn { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="qr-card">
+    <div id="qr-wrap"></div>
+    <p class="qr-name">5X Café &amp; Pizzeria</p>
+    <p class="qr-sub">Tiszavasvári, Szabadság tér 1</p>
+  </div>
+
+  <button class="print-btn" onclick="window.print()">🖨 Nyomtatás</button>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script>
+    const siteUrl = window.location.href.replace('qr.html', 'index.html')
+    new QRCode(document.getElementById('qr-wrap'), {
+      text: siteUrl,
+      width: 220,
+      height: 220,
+      colorDark: '#000000',
+      colorLight: '#ffffff',
+      correctLevel: QRCode.CorrectLevel.M
+    })
+  </script>
+</body>
+</html>

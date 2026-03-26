@@ -1,0 +1,74 @@
+[
+  { "id": "kave-espresso", "name": "Espresso", "category": "Kávé", "price": "650" },
+  { "id": "kave-dupla-presszo", "name": "Dupla Presszó", "category": "Kávé", "price": "1200" },
+  { "id": "kave-hosszu", "name": "Hosszú Kávé", "category": "Kávé", "price": "650" },
+  { "id": "kave-koffeinmentes", "name": "Koffein Mentes Kávé", "category": "Kávé", "price": "650" },
+  { "id": "kave-jeges", "name": "Jégeskávé", "category": "Kávé", "price": "990" },
+  { "id": "kave-macchiato", "name": "Macchiato", "category": "Kávé", "price": "700" },
+  { "id": "kave-cappuccino", "name": "Cappuccino", "category": "Kávé", "price": "800" },
+  { "id": "kave-cafe-latte", "name": "Cafe Latte", "category": "Kávé", "price": "900" },
+  { "id": "kave-melange", "name": "Melange", "category": "Kávé", "price": "950" },
+  { "id": "kave-forro-csoki", "name": "Forró Csoki", "category": "Kávé", "price": "700" },
+  { "id": "kave-tea", "name": "Tea", "category": "Kávé", "price": "700" },
+
+  { "id": "sor-birra-moretti-03", "name": "Birra Moretti 0,3L", "category": "Csapolt Sör", "price": "540" },
+  { "id": "sor-birra-moretti-05", "name": "Birra Moretti 0,5L", "category": "Csapolt Sör", "price": "900" },
+  { "id": "sor-mort-subite-025", "name": "Mort Subite 0,25L", "category": "Csapolt Sör", "price": "780" },
+  { "id": "sor-mort-subite-04", "name": "Mort Subite 0,4L", "category": "Csapolt Sör", "price": "1250" },
+
+  { "id": "uveges-miller", "name": "Miller 0,33L", "category": "Üveges Sör", "price": "900" },
+  { "id": "uveges-peroni", "name": "Peroni Nastro 0,33L", "category": "Üveges Sör", "price": "900" },
+  { "id": "uveges-gosser", "name": "Gösser Citrom 0,33L", "category": "Üveges Sör", "price": "750" },
+
+  { "id": "vodka-finlandia", "name": "Finlandia", "description": "4cl", "category": "Vodka", "price": "900" },
+  { "id": "vodka-finlandia-botanical", "name": "Finlandia Botanical", "description": "4cl", "category": "Vodka", "price": "900" },
+  { "id": "vodka-tchaikovsky", "name": "Tchaikovsky", "description": "4cl", "category": "Vodka", "price": "990" },
+
+  { "id": "rum-havanna", "name": "Havanna Club 3 Años", "description": "4cl", "category": "Rum", "price": "900" },
+  { "id": "rum-merser", "name": "Merser Reserve", "description": "4cl", "category": "Rum", "price": "1390" },
+  { "id": "rum-bumbu", "name": "Bumbu Original", "description": "4cl", "category": "Rum", "price": "1990" },
+
+  { "id": "gin-bombay", "name": "Bombay Sapphire", "description": "4cl", "category": "Gin", "price": "990" },
+  { "id": "gin-haymans", "name": "Haymans London Dry", "description": "4cl", "category": "Gin", "price": "990" },
+  { "id": "gin-malfy", "name": "Malfy Rose/Pink GF.", "description": "4cl", "category": "Gin", "price": "1590" },
+
+  { "id": "whiskey-jack-daniels", "name": "Jack Daniels", "description": "4cl", "category": "Whiskey", "price": "1090" },
+  { "id": "whiskey-jameson", "name": "Jameson", "description": "4cl", "category": "Whiskey", "price": "1190" },
+  { "id": "whiskey-glenmorangie", "name": "Glenmorangie 12 éves", "description": "4cl", "category": "Whiskey", "price": "1890" },
+
+  { "id": "udito-coca-cola", "name": "Coca Cola Termékek 0,25L", "description": "Cola, zero cola, fanta, sprite, kinley tonic, purple, ginger", "category": "Üdítő", "price": "700" },
+  { "id": "udito-cappy", "name": "Cappy 0,25L", "description": "Alma, barack, ananász, körte", "category": "Üdítő", "price": "800" },
+  { "id": "udito-fuze-tea", "name": "Fuze Tea 0,25L", "description": "Citrom, barack", "category": "Üdítő", "price": "800" },
+  { "id": "udito-hazi-lemon-03", "name": "Házi Limonádé 0,3L", "category": "Üdítő", "price": "600" },
+  { "id": "udito-hazi-lemon-05", "name": "Házi Limonádé 0,5L", "category": "Üdítő", "price": "900" },
+  { "id": "udito-hazi-jegeste-03", "name": "Házi Jégestea 0,3L", "category": "Üdítő", "price": "600" },
+  { "id": "udito-hazi-jegeste-05", "name": "Házi Jégestea 0,5L", "category": "Üdítő", "price": "900" },
+  { "id": "udito-szentkiralyi", "name": "Szentkirályi Ásványvíz 0,33L", "category": "Üdítő", "price": "500" },
+  { "id": "udito-szoda", "name": "Szóda 0,1L", "category": "Üdítő", "price": "100" },
+  { "id": "udito-gastro-szoda", "name": "Gastro Szóda 0,8L", "category": "Üdítő", "price": "800" },
+  { "id": "udito-almafrocs", "name": "Almafröccs 0,5L", "category": "Üdítő", "price": "900" },
+
+  { "id": "keseru-jagermeister", "name": "Jägermeister", "description": "4cl", "category": "Keserű", "price": "900" },
+  { "id": "keseru-jagermeister-or", "name": "Jägermeister Or.", "description": "4cl", "category": "Keserű", "price": "900" },
+  { "id": "keseru-unicum", "name": "Unicum", "description": "4cl", "category": "Keserű", "price": "900" },
+  { "id": "keseru-unicum-riserva", "name": "Unicum Riserva", "description": "4cl", "category": "Keserű", "price": "1690" },
+
+  { "id": "tequila-la-chica", "name": "La Chica Blanco", "description": "4cl", "category": "Tequila", "price": "990" },
+
+  { "id": "konyak-vecchia", "name": "Vecchia Romagna", "description": "4cl", "category": "Konyak", "price": "990" },
+  { "id": "konyak-hennessy", "name": "Hennessy VS.", "description": "4cl", "category": "Konyak", "price": "1890" },
+
+  { "id": "likor-aperol", "name": "Aperol", "description": "4cl", "category": "Likőr", "price": "650" },
+  { "id": "likor-amaro", "name": "Amaro Montenegro", "description": "4cl", "category": "Likőr", "price": "990" },
+  { "id": "likor-bottega-pisztacia", "name": "Bottega Pisztácia", "description": "4cl", "category": "Likőr", "price": "1190" },
+  { "id": "likor-bottega-tiramisu", "name": "Bottega Tiramisu", "description": "4cl", "category": "Likőr", "price": "1190" },
+
+  { "id": "palinka-gusto-alma", "name": "Gusto Érlelt Alma", "description": "4cl", "category": "Pálinka", "price": "1890" },
+  { "id": "palinka-gusto-meggy", "name": "Gusto Cigánymeggy", "description": "4cl", "category": "Pálinka", "price": "1890" },
+  { "id": "palinka-gusto-birs", "name": "Gusto Birskörte", "description": "4cl", "category": "Pálinka", "price": "1890" },
+  { "id": "palinka-gusto-szilva", "name": "Gusto Farm Besztercei Szilva", "description": "4cl", "category": "Pálinka", "price": "1890" },
+  { "id": "palinka-gusto-barack", "name": "Gusto Farm Kecskeméti Barack", "description": "4cl", "category": "Pálinka", "price": "1890" },
+  { "id": "palinka-arpad", "name": "Árpád Gyömbér", "description": "4cl", "category": "Pálinka", "price": "2500" },
+  { "id": "palinka-bottega-grappa", "name": "Bottega Grappa", "description": "4cl", "category": "Pálinka", "price": "990" },
+  { "id": "palinka-bottega-limoncello", "name": "Bottega Limoncello", "description": "4cl", "category": "Pálinka", "price": "990" }
+]

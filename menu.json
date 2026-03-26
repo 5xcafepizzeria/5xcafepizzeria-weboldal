@@ -1,0 +1,274 @@
+[
+  {
+    "id": "eloetel-mozzarella-mousse",
+    "name": "Mozzarella mousse, paradicsomsaláta, pizza kenyér",
+    "allergens": "glutén, laktóz, szója",
+    "image": "images/mozarella_mousse.jpg",
+    "category": "Előétel",
+    "price": "3250"
+  },
+  {
+    "id": "eloetel-aquadella",
+    "name": "Ropogós aquadella, fokhagymás tartár, lime",
+    "allergens": "glutén, hal, tojás, mustár, laktóz",
+    "image": "images/aquadelle.jpg",
+    "category": "Előétel",
+    "price": "3150"
+  },
+  {
+    "id": "eloetel-pil-pil",
+    "name": "5X gombás pil-pil (garnéla, rák), pizza kenyér",
+    "allergens": "glutén, rákfélék, laktóz",
+    "image": "images/pil_pil.jpg",
+    "category": "Előétel",
+    "price": "4350"
+  },
+  {
+    "id": "leves-paradicsom",
+    "name": "Paradicsomleves, pizza kenyér",
+    "allergens": "glutén, laktóz",
+    "image": "images/paradicsomleves.jpg",
+    "category": "Leves",
+    "price": "2250"
+  },
+  {
+    "id": "pasta-tagliatelle-pomodoro",
+    "name": "Tagliatelle pomodoro",
+    "allergens": "glutén, tojás, laktóz",
+    "image": "images/pomodoro.jpg",
+    "category": "Pasta",
+    "price": "2950"
+  },
+  {
+    "id": "pasta-tejszines-csirke",
+    "name": "Tejszínes fehérboros csirke, erdei gomba, fusilli",
+    "allergens": "glutén, tojás, laktóz",
+    "image": "images/gombás_csirkés_fussilli.jpg",
+    "category": "Pasta",
+    "price": "3650"
+  },
+  {
+    "id": "pasta-bolognai",
+    "name": "Bolognai tagliatelle",
+    "allergens": "glutén, tojás, zeller, laktóz",
+    "image": "images/bolognai.jpg",
+    "category": "Pasta",
+    "price": "3950"
+  },
+  {
+    "id": "pasta-szarvasgomba",
+    "name": "Szarvasgomba, dió, gorgonzola, fusilli",
+    "allergens": "glutén, laktóz, tojás, diófélék",
+    "image": "images/szarvasgombás_fusilli.jpg",
+    "category": "Pasta",
+    "price": "3950"
+  },
+  {
+    "id": "pasta-garnela",
+    "name": "Paradicsomos tagliatelle, chilis garnéla",
+    "allergens": "glutén, tojás, laktóz, rákfélék",
+    "image": "images/chillis_garnélás_tagliatelle.jpg",
+    "category": "Pasta",
+    "price": "4850"
+  },
+  {
+    "id": "foetel-karfiol-steak",
+    "name": "Karfiol steak, dió, kapribogyó, vajas kesudió mártás",
+    "allergens": "diófélék",
+    "image": "images/karfiol_steak.jpg",
+    "category": "Főétel",
+    "price": "4950"
+  },
+  {
+    "id": "foetel-gomba-rizotto",
+    "name": "Erdei gombás rizottó",
+    "allergens": "laktóz",
+    "image": "images/gombás_rizotto.jpg",
+    "category": "Főétel",
+    "price": "4950"
+  },
+  {
+    "id": "foetel-gomba-rizotto-kacsa",
+    "name": "Erdei gombás rizottó sült kacsamellel",
+    "allergens": "laktóz",
+    "image": "images/gombás_rizotto_kacsa.jpg",
+    "category": "Főétel",
+    "price": "5850"
+  },
+  {
+    "id": "foetel-cezar-garnela",
+    "name": "Cézár saláta tempurált garnéla rákkal",
+    "allergens": "glutén, rákfélék, tojás, hal, laktóz, mustár",
+    "image": "images/cézársaláta_garnéla.jpg",
+    "category": "Főétel",
+    "price": "4950"
+  },
+  {
+    "id": "foetel-cezar-csirke",
+    "name": "Cézár saláta sült csirkemellel",
+    "allergens": "glutén, rákfélék, tojás, hal, laktóz, mustár",
+    "image": "images/csirkés_ceasar_saláta.jpg",
+    "category": "Főétel",
+    "price": "4250"
+  },
+  {
+    "id": "foetel-lazac",
+    "name": "Grillezett lazac, karfiol steak, dió, kapribogyó, vajas kesudió mártás",
+    "allergens": "hal, diófélék",
+    "image": "images/grillezett_lazac.jpg",
+    "category": "Főétel",
+    "price": "5950"
+  },
+  {
+    "id": "foetel-teriyaki-saslik",
+    "name": "Teriyakis Saslik, házi sült burgonya, kápia, padrón paprika",
+    "allergens": "szója",
+    "image": "images/teriyakis_saslik.jpg",
+    "category": "Főétel",
+    "price": "5850"
+  },
+  {
+    "id": "foetel-ribeye",
+    "name": "Rib-eye steak (250g), szarvasgombás gratin burgonya, sült hagymakrém",
+    "allergens": "laktóz",
+    "image": "images/rib_eye_steak.jpg",
+    "category": "Főétel",
+    "price": "10550"
+  },
+  {
+    "id": "pizza-margherita",
+    "name": "Margherita",
+    "description": "Paradicsomszósz, mozzarella, bazsalikom",
+    "image": "images/pizza_margherita.jpg",
+    "category": "Pizza",
+    "price": "2950"
+  },
+  {
+    "id": "pizza-marinara",
+    "name": "Marinara",
+    "description": "Paradicsomszósz, koktélparadicsom",
+    "image": "",
+    "category": "Pizza",
+    "price": "2950"
+  },
+  {
+    "id": "pizza-cardinale",
+    "name": "Cardinale",
+    "description": "Paradicsomszósz, mozzarella, sonka",
+    "image": "",
+    "category": "Pizza",
+    "price": "3650"
+  },
+  {
+    "id": "pizza-salame",
+    "name": "Salame",
+    "description": "Paradicsomszósz, mozzarella, szalámi",
+    "image": "",
+    "category": "Pizza",
+    "price": "3650"
+  },
+  {
+    "id": "pizza-songoku",
+    "name": "Songoku",
+    "description": "Paradicsomszósz, mozzarella, sonka, gomba, kukorica",
+    "image": "",
+    "category": "Pizza",
+    "price": "3750"
+  },
+  {
+    "id": "pizza-quattro-formaggi",
+    "name": "Quattro Formaggi",
+    "description": "Paradicsomszósz, mozzarella, füstölt sajt, gorgonzola, parmezán forgács, bazsalikom",
+    "image": "",
+    "category": "Pizza",
+    "price": "3550"
+  },
+  {
+    "id": "pizza-ungherese",
+    "name": "Ungherese",
+    "description": "Paradicsomszósz, mozzarella, szalámi, pancetta, kolbász, lilahagyma, pepperoni",
+    "image": "",
+    "category": "Pizza",
+    "price": "3950"
+  },
+  {
+    "id": "pizza-bolognese",
+    "name": "Bolognese",
+    "description": "Marhahúsos bolognai ragu, parmezán, mozzarella",
+    "image": "",
+    "category": "Pizza",
+    "price": "4150"
+  },
+  {
+    "id": "pizza-vegetariano",
+    "name": "Vegetariano",
+    "description": "Paradicsomszósz, mozzarella, padlizsán, erdei gomba, articsóka, lilahagyma, koktélparadicsom",
+    "image": "",
+    "category": "Pizza",
+    "price": "3450"
+  },
+  {
+    "id": "pizza-capricciosa",
+    "name": "Capricciosa",
+    "description": "Paradicsomszósz, mozzarella, sonka, erdei gomba, articsóka, olajbogyó",
+    "image": "",
+    "category": "Pizza",
+    "price": "3750"
+  },
+  {
+    "id": "pizza-prosciutto-crudo",
+    "name": "Prosciutto Crudo",
+    "description": "Paradicsomszósz, mozzarella, pármai sonka, rukkola, koktélparadicsom, parmezán forgács",
+    "image": "",
+    "category": "Pizza",
+    "price": "3950"
+  },
+  {
+    "id": "pizza-mela-blue",
+    "name": "Mela Blue",
+    "description": "Parmezános tejszínes szósz, mozzarella, marinált alma, pirított dió, gorgonzola, rukkola",
+    "image": "",
+    "category": "Pizza",
+    "price": "3550"
+  },
+  {
+    "id": "pizza-giovanni",
+    "name": "Giovanni",
+    "description": "Fokhagymás-bazsalikomos tejföl, mozzarella, fűszeres csirke, pancetta, koktélparadicsom, zöldhagyma, pecorino",
+    "image": "",
+    "category": "Pizza",
+    "price": "4150"
+  },
+  {
+    "id": "pizza-mozzarella-di-bufala",
+    "name": "Mozzarella di Bufala",
+    "description": "Fokhagymás-bazsalikomos tejföl, fűszeres csirke, koktélparadicsom, mini bivaly mozzarella, rukkola, zöld pesto",
+    "image": "",
+    "category": "Pizza",
+    "price": "4150"
+  },
+  {
+    "id": "pizza-spinaci",
+    "name": "Spinaci",
+    "description": "Fokhagymás-bazsalikomos tejföl, mozzarella, spenót, koktélparadicsom, tükörtojás, pármai sonka",
+    "image": "",
+    "category": "Pizza",
+    "price": "4150"
+  },
+  {
+    "id": "pizza-frutti-de-mare",
+    "name": "Frutti De Mare",
+    "description": "Fokhagymás-bazsalikomos tejföl, mozzarella, aquadella, tintahal, olajbogyó, citrom",
+    "image": "",
+    "category": "Pizza",
+    "price": "4250"
+  },
+  {
+    "id": "pizza-calzone",
+    "name": "Calzone",
+    "description": "Paradicsomszósz, mozzarella, sonka, gomba",
+    "image": "",
+    "category": "Pizza",
+    "price": "3950"
+  }
+]

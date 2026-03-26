@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "name": "Leves",
+      "items": [
+        { "dish": "Tom Yum csirkemellel", "price": "3250" },
+        { "dish": "Hideg eperkrémleves, mentás-citrusos rikotta", "price": "3250" }
+      ]
+    },
+    {
+      "name": "Főétel",
+      "items": [
+        { "dish": "Rántott csirkemell, zsályás barnavaj, petrezselymes burgonya", "price": "5250" },
+        { "dish": "Tavaszi csirkemell, zöldséges gnocchi", "price": "5250" },
+        { "dish": "Rántott tőkehal, vajas petrezselymes burgonya, újkáposztás remulád", "price": "5250" }
+      ]
+    }
+  ]
+}
