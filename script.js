@@ -123,6 +123,14 @@ fetch('weekly_menu.json')
       </div>
     `).join('')
 
+    const promoHtml = data.promotion ? `
+      <div class="weekly-promo">
+        <p class="weekly-promo-title">${data.promotion.title}</p>
+        <p class="weekly-promo-desc">${data.promotion.description}</p>
+        <p class="weekly-promo-note">${data.promotion.note}</p>
+      </div>
+    ` : ''
+
     section.innerHTML = `
       <div class="weekly-header">
         <h2 class="weekly-title">Heti Ajánlat</h2>
@@ -132,6 +140,7 @@ fetch('weekly_menu.json')
         <div class="weekly-card-body">
           ${categoriesHtml}
         </div>
+        ${promoHtml}
       </div>
     `
   })
