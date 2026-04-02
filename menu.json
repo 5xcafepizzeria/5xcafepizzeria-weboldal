@@ -43,7 +43,7 @@
     "id": "pasta-tejszines-csirke",
     "name": "Tejszínes fehérboros csirke, erdei gomba, fusilli",
     "allergens": "glutén, tojás, laktóz",
-    "image": "images/gombás_csirkés_fussilli.jpg",
+    "image": "images/gombas_csirkes_fussilli.jpg",
     "category": "Pasta",
     "price": "3650"
   },
@@ -59,7 +59,7 @@
     "id": "pasta-szarvasgomba",
     "name": "Szarvasgomba, dió, gorgonzola, fusilli",
     "allergens": "glutén, laktóz, tojás, diófélék",
-    "image": "images/szarvasgombás_fusilli.jpg",
+    "image": "images/szarvasgombas_fusilli.jpg",
     "category": "Pasta",
     "price": "3950"
   },
@@ -67,7 +67,7 @@
     "id": "pasta-garnela",
     "name": "Paradicsomos tagliatelle, chilis garnéla",
     "allergens": "glutén, tojás, laktóz, rákfélék",
-    "image": "images/chillis_garnélás_tagliatelle.jpg",
+    "image": "images/chillis_garnelas_tagliatelle.jpg",
     "category": "Pasta",
     "price": "4850"
   },
@@ -83,7 +83,7 @@
     "id": "foetel-gomba-rizotto",
     "name": "Erdei gombás rizottó",
     "allergens": "laktóz",
-    "image": "images/gombás_rizotto.jpg",
+    "image": "images/gombas_rizotto.jpg",
     "category": "Főétel",
     "price": "4950"
   },
@@ -91,7 +91,7 @@
     "id": "foetel-gomba-rizotto-kacsa",
     "name": "Erdei gombás rizottó sült kacsamellel",
     "allergens": "laktóz",
-    "image": "images/gombás_rizotto_kacsa.jpg",
+    "image": "images/gombas_rizotto_kacsa.jpg",
     "category": "Főétel",
     "price": "5850"
   },
@@ -99,7 +99,7 @@
     "id": "foetel-cezar-garnela",
     "name": "Cézár saláta tempurált garnéla rákkal",
     "allergens": "glutén, rákfélék, tojás, hal, laktóz, mustár",
-    "image": "images/cézársaláta_garnéla.jpg",
+    "image": "images/cezarsalata_garnela.jpg",
     "category": "Főétel",
     "price": "4950"
   },
@@ -107,7 +107,7 @@
     "id": "foetel-cezar-csirke",
     "name": "Cézár saláta sült csirkemellel",
     "allergens": "glutén, rákfélék, tojás, hal, laktóz, mustár",
-    "image": "images/csirkés_ceasar_saláta.jpg",
+    "image": "images/csirkes_ceasar_salata.jpg",
     "category": "Főétel",
     "price": "4250"
   },
@@ -139,7 +139,7 @@
     "id": "pizza-margherita",
     "name": "Margherita",
     "description": "Paradicsomszósz, mozzarella, bazsalikom",
-    "image": "images/pizza_margherita.jpg",
+    "image": "",
     "category": "Pizza",
     "price": "2950"
   },
