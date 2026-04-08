@@ -3,23 +3,23 @@
     {
       "name": "Leves",
       "items": [
-        { "dish": "Bárány palóc", "price": "3450" },
-        { "dish": "Kacsa ramen", "price": "3450" }
+        { "dish": "Tárkonyos nyúlraguleves burgonyagombóccal", "price": "3450" },
+        { "dish": "Kókusztejes gombaleves spenótos-ricottás galuskával", "price": "3250" }
       ]
     },
     {
       "name": "Főétel",
       "items": [
-        { "dish": "Rántott csirkemell, zsályás barnavaj, petrezselymes burgonya", "price": "5250" },
-        { "dish": "Rántott tőkehal, vajas petrezselymes burgonya, újkáposztás remulád", "price": "5250" },
-        { "dish": "Chilis-hagymás nyúlmáj, diós nudli, alma", "price": "5250" },
-        { "dish": "Bárány lasagne", "price": "6250" }
+        { "dish": "Kapros-tejszínes lazacos tagliatelle", "price": "5250" },
+        { "dish": "Fogasfilé, polentakrém, tavaszi zöldségek, bacon, pecorino", "price": "5950" },
+        { "dish": "Sertéstarja steak égetett káposztával, hagymákkal, burgonyával, pecsenyelével", "price": "5650" },
+        { "dish": "Kijevi csirkemell, burgonyapüré", "price": "5650" }
       ]
     }
   ],
   "promotion": {
     "title": "Áprilisi Pizza Happy Hour",
-    "description": "Szerdán és csütörtökön 14:00–18:00-ig",
+    "description": "Szerdán és csütörtökön 14:00-18:00-ig",
     "note": "Csak helyben fogyasztásra, 10% kedvezmény."
   }
 }
