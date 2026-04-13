@@ -74,10 +74,12 @@
 function getCurrentWeekLabel() {
   const now = new Date()
   const day = now.getDay() // 0=Sun, 1=Mon, …, 6=Sat
-  // Days since the most recent Wednesday (Wed=3)
-  const offset = (day + 4) % 7   // Wed→0, Thu→1, Fri→2, Sat→3, Sun→4, Mon→5, Tue→6
+  // On Mon/Tue show the *upcoming* Wed; on Wed–Sun show the current/past Wed
+  const daysToWed = (day === 1 || day === 2)
+    ? (3 - day)                // Mon→+2, Tue→+1 (forward to next Wed)
+    : -((day + 4) % 7)        // Wed→0, Thu→−1, Fri→−2, Sat→−3, Sun→−4
   const wednesday = new Date(now)
-  wednesday.setDate(now.getDate() - offset)
+  wednesday.setDate(now.getDate() + daysToWed)
   const sunday = new Date(wednesday)
   sunday.setDate(wednesday.getDate() + 4)
 
