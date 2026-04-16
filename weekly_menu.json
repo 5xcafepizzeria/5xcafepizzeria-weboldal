@@ -11,7 +11,7 @@
       "name": "Főétel",
       "items": [
         { "dish": "Rántott fogasfilé wasabis daikonnal, agata burgonyával", "price": "5950" },
-        { "dish": "Töltött fürj, zöldborsó, kacsazsírban konfitált vajrépa", "price": "5950" },
+        { "dish": "Töltött fürj, zöldborsó, kacsazsírban konfitált répa", "price": "5950" },
         { "dish": "Borjúmáj Piccata, tormás-majonézes káposztasaláta", "price": "5650" }
       ]
     }
