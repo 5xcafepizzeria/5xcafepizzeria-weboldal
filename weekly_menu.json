@@ -3,16 +3,18 @@
     {
       "name": "Leves",
       "items": [
-        { "dish": "Eperkrémleves bazsalikomos eper raguval, ricottával", "price": "3250" },
-        { "dish": "Zöldbableves, konfitált kacsazuza, tejföl", "price": "3450" }
+        { "dish": "Hideg meggyleves, mákos guba", "price": "2950" },
+        { "dish": "Spárgakrémleves", "price": "2950" },
+        { "dish": "Spárgakrémleves lazaccal", "price": "3250" }
       ]
     },
     {
       "name": "Főétel",
       "items": [
-        { "dish": "Rántott fogasfilé wasabis daikonnal, agata burgonyával", "price": "5950" },
-        { "dish": "Töltött fürj, zöldborsó, kacsazsírban konfitált répa", "price": "5950" },
-        { "dish": "Borjúmáj Piccata, tormás-majonézes káposztasaláta", "price": "5650" }
+        { "dish": "Tavaszi sertésszűz, gnocchi", "price": "5250" },
+        { "dish": "Rántott hosszúkaraj, marinált zöldségek, burgonyapüré", "price": "5250" },
+        { "dish": "Beluga „rizottó\", kacsamell", "price": "5650" },
+        { "dish": "Báránylasagne rántva, szarvasgombás tejföl", "price": "4850" }
       ]
     }
   ],
