@@ -21,29 +21,6 @@
     <p class="site-tagline">Tiszavasvári</p>
   </header>
 
-  <!-- WEEKLY MENU -->
-  <section class="weekly-section" id="weekly-section"></section>
-
-  <!-- CATEGORY NAV -->
-  <div id="nav-anchor"></div>
-  <nav class="category-nav" id="category-nav" aria-label="Kategóriák"></nav>
-
-  <!-- MENU -->
-  <main class="menu-section" id="food-section">
-    <div id="menu-container"></div>
-  </main>
-
-  <!-- DRINKS -->
-  <section class="drinks-section" id="drinks-section" hidden>
-    <div class="menu-section" style="padding-top:0;padding-bottom:0">
-      <h2 class="category-heading">Italok</h2>
-    </div>
-    <div class="drinks-columns" id="drinks-container"></div>
-  </section>
-
-  <!-- GALLERY -->
-  <section class="gallery-section" id="gallery-section"></section>
-
   <!-- INFO SECTION -->
   <section class="info-section">
     <div class="info-grid">
@@ -52,15 +29,15 @@
       <div class="info-block">
         <h2 class="info-heading">Nyitvatartás</h2>
         <ul class="hours-list">
-          <li class="hours-row closed">
+          <li class="hours-row closed" data-day="1">
             <span class="hours-day">Hétfő</span>
             <span class="hours-time">Zárva</span>
           </li>
-          <li class="hours-row closed">
+          <li class="hours-row closed" data-day="2">
             <span class="hours-day">Kedd</span>
             <span class="hours-time">Zárva</span>
           </li>
-          <li class="hours-row">
+          <li class="hours-row" data-day="3">
             <span class="hours-day">Szerda</span>
             <span class="hours-time">10:00–20:00</span>
           </li>
@@ -68,7 +45,7 @@
             <span class="hours-kitchen-label">Konyha</span>
             <span class="hours-kitchen-time">11:30–19:30</span>
           </li>
-          <li class="hours-row">
+          <li class="hours-row" data-day="4">
             <span class="hours-day">Csütörtök</span>
             <span class="hours-time">10:00–20:00</span>
           </li>
@@ -76,7 +53,7 @@
             <span class="hours-kitchen-label">Konyha</span>
             <span class="hours-kitchen-time">11:30–19:30</span>
           </li>
-          <li class="hours-row">
+          <li class="hours-row" data-day="5">
             <span class="hours-day">Péntek</span>
             <span class="hours-time">10:00–22:00</span>
           </li>
@@ -84,7 +61,7 @@
             <span class="hours-kitchen-label">Konyha</span>
             <span class="hours-kitchen-time">11:30–21:00</span>
           </li>
-          <li class="hours-row">
+          <li class="hours-row" data-day="6">
             <span class="hours-day">Szombat</span>
             <span class="hours-time">10:00–22:00</span>
           </li>
@@ -92,7 +69,7 @@
             <span class="hours-kitchen-label">Konyha</span>
             <span class="hours-kitchen-time">11:30–21:00</span>
           </li>
-          <li class="hours-row">
+          <li class="hours-row" data-day="0">
             <span class="hours-day">Vasárnap</span>
             <span class="hours-time">10:00–17:00</span>
           </li>
@@ -141,6 +118,29 @@
       </a>
     </div>
   </section>
+
+  <!-- WEEKLY MENU -->
+  <section class="weekly-section" id="weekly-section"></section>
+
+  <!-- CATEGORY NAV -->
+  <div id="nav-anchor"></div>
+  <nav class="category-nav" id="category-nav" aria-label="Kategóriák"></nav>
+
+  <!-- MENU -->
+  <main class="menu-section" id="food-section">
+    <div id="menu-container"></div>
+  </main>
+
+  <!-- DRINKS -->
+  <section class="drinks-section" id="drinks-section" hidden>
+    <div class="menu-section" style="padding-top:0;padding-bottom:0">
+      <h2 class="category-heading">Italok</h2>
+    </div>
+    <div class="drinks-columns" id="drinks-container"></div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section" id="gallery-section"></section>
 
   <!-- FOOTER -->
   <footer class="site-footer">
