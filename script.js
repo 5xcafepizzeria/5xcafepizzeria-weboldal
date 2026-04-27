@@ -76,20 +76,13 @@ document.querySelectorAll('.hours-row[data-day]').forEach(row => {
 })
 
 // ===== WEEK LABEL =====
-function getCurrentWeekLabel() {
-  const now = new Date()
-  const day = now.getDay() // 0=Sun, 1=Mon, …, 6=Sat
-  // On Mon/Tue show the *upcoming* Wed; on Wed–Sun show the current/past Wed
-  const daysToWed = (day === 1 || day === 2)
-    ? (3 - day)                // Mon→+2, Tue→+1 (forward to next Wed)
-    : -((day + 4) % 7)        // Wed→0, Thu→−1, Fri→−2, Sat→−3, Sun→−4
-  const wednesday = new Date(now)
-  wednesday.setDate(now.getDate() + daysToWed)
+function getWeekLabel(weekStart) {
+  const months = ['január','február','március','április','május','június',
+                  'július','augusztus','szeptember','október','november','december']
+  const wednesday = new Date(weekStart + 'T00:00:00')
   const sunday = new Date(wednesday)
   sunday.setDate(wednesday.getDate() + 4)
 
-  const months = ['január','február','március','április','május','június',
-                  'július','augusztus','szeptember','október','november','december']
   const y  = wednesday.getFullYear()
   const m1 = wednesday.getMonth()
   const m2 = sunday.getMonth()
@@ -141,7 +134,7 @@ fetch('weekly_menu.json')
     section.innerHTML = `
       <div class="weekly-header">
         <h2 class="weekly-title">Heti Ajánlat</h2>
-        <p class="weekly-subtitle">${getCurrentWeekLabel()}</p>
+        <p class="weekly-subtitle">${getWeekLabel(data.weekStart)}</p>
       </div>
       <div class="weekly-card">
         <div class="weekly-card-body">

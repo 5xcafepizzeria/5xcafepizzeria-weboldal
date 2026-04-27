@@ -21,8 +21,28 @@
     <p class="site-tagline">Tiszavasvári</p>
   </header>
 
+  <!-- WEEKLY MENU -->
+  <section class="weekly-section" id="weekly-section"></section>
+
+  <!-- CATEGORY NAV -->
+  <div id="nav-anchor"></div>
+  <nav class="category-nav" id="category-nav" aria-label="Kategóriák"></nav>
+
+  <!-- MENU -->
+  <main class="menu-section" id="food-section">
+    <div id="menu-container"></div>
+  </main>
+
+  <!-- DRINKS -->
+  <section class="drinks-section" id="drinks-section" hidden>
+    <div class="menu-section" style="padding-top:0;padding-bottom:0">
+      <h2 class="category-heading">Italok</h2>
+    </div>
+    <div class="drinks-columns" id="drinks-container"></div>
+  </section>
+
   <!-- INFO SECTION -->
-  <section class="info-section">
+  <section class="info-section" id="info-section">
     <div class="info-grid">
 
       <!-- Opening hours -->
@@ -81,7 +101,7 @@
       </div>
 
       <!-- Map -->
-      <div class="info-block">
+      <div class="info-block" id="elerhetoseg">
         <h2 class="info-heading">Elérhetőség</h2>
         <div class="map-wrap">
           <iframe
@@ -119,26 +139,6 @@
     </div>
   </section>
 
-  <!-- WEEKLY MENU -->
-  <section class="weekly-section" id="weekly-section"></section>
-
-  <!-- CATEGORY NAV -->
-  <div id="nav-anchor"></div>
-  <nav class="category-nav" id="category-nav" aria-label="Kategóriák"></nav>
-
-  <!-- MENU -->
-  <main class="menu-section" id="food-section">
-    <div id="menu-container"></div>
-  </main>
-
-  <!-- DRINKS -->
-  <section class="drinks-section" id="drinks-section" hidden>
-    <div class="menu-section" style="padding-top:0;padding-bottom:0">
-      <h2 class="category-heading">Italok</h2>
-    </div>
-    <div class="drinks-columns" id="drinks-container"></div>
-  </section>
-
   <!-- GALLERY -->
   <section class="gallery-section" id="gallery-section"></section>
 
@@ -162,6 +162,14 @@
     <div class="lightbox-content" id="lightbox-content"></div>
     <p class="lightbox-caption" id="lightbox-caption"></p>
   </div>
+
+  <!-- CONTACT FAB -->
+  <button class="contact-fab" onclick="document.getElementById('elerhetoseg').scrollIntoView({behavior:'smooth'})" aria-label="Ugrás az elérhetőségekhez">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+    </svg>
+    <span>Elérhetőség</span>
+  </button>
 
   <script src="script.js"></script>
 </body>
