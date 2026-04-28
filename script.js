@@ -71,8 +71,10 @@
 })()
 
 // ===== TODAY HIGHLIGHT =====
-document.querySelectorAll('.hours-row[data-day]').forEach(row => {
-  if (parseInt(row.dataset.day) === new Date().getDay()) row.classList.add('today')
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.hours-row[data-day]').forEach(row => {
+    if (parseInt(row.dataset.day) === new Date().getDay()) row.classList.add('today')
+  })
 })
 
 // ===== WEEK LABEL =====

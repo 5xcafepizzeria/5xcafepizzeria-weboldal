@@ -164,7 +164,7 @@
   </div>
 
   <!-- CONTACT FAB -->
-  <button class="contact-fab" onclick="document.getElementById('elerhetoseg').scrollIntoView({behavior:'smooth'})" aria-label="Ugrás az elérhetőségekhez">
+  <button class="contact-fab" onclick="(function(){ var el=document.getElementById('elerhetoseg'); var nav=document.getElementById('category-nav'); var offset=nav ? nav.getBoundingClientRect().height + 12 : 72; window.scrollTo({top: el.getBoundingClientRect().top + window.scrollY - offset, behavior:'smooth'}); })()" aria-label="Ugrás az elérhetőségekhez">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
     </svg>
