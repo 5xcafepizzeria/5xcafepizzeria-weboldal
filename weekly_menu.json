@@ -1,21 +1,22 @@
 {
-  "weekStart": "2026-04-22",
+  "weekStart": "2026-04-29",
   "categories": [
     {
       "name": "Leves",
       "items": [
-        { "dish": "Hideg meggyleves, mákos guba", "price": "2950" },
-        { "dish": "Spárgakrémleves", "price": "2950" },
-        { "dish": "Spárgakrémleves lazaccal", "price": "3250" }
+        { "dish": "Hideg kapros tökleves, kacsa krokett", "price": "3250" },
+        { "dish": "Meleg kapros tökleves, kacsa krokett", "price": "3250" },
+        { "dish": "Hideg meggy leves, mákos guba, angolkrém", "price": "3250" }
       ]
     },
     {
       "name": "Főétel",
       "items": [
-        { "dish": "Tavaszi sertésszűz, gnocchi", "price": "5250" },
-        { "dish": "Rántott hosszúkaraj, marinált zöldségek, burgonyapüré", "price": "5250" },
-        { "dish": "Beluga „rizottó\", kacsamell", "price": "5650" },
-        { "dish": "Báránylasagne rántva, szarvasgombás tejföl", "price": "4850" }
+        { "dish": "Pacal, chillis nyúlmáj, kovászos kenyér, házi uborka", "price": "4950" },
+        { "dish": "Zsályás barnavajas rántott csirke, petrezselymes burgonya vagy Caesar saláta, bacon, tojás", "price": "5450" },
+        { "dish": "Fogas Kárpáti, spárga, burgonya", "price": "6450" },
+        { "dish": "Tarja steak, enoki gomba, medvehagyma, burgonya „cannelloni”", "price": "5250" },
+        { "dish": "Kacsamell, rebarbara-eper „lecsó”, spárga", "price": "5650" }
       ]
     }
   ],
